@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 
 gem 'rails', '4.1.7'
 gem 'sass-rails', '~> 4.0.3'
@@ -18,7 +18,6 @@ group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
-
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
